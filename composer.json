@@ -1,5 +1,5 @@
 {
-    "name": "bluetea/jira-rest-api",
+    "name": "3ipunt/jira-rest-api",
     "description": "Atlassian JIRA REST API PHP Library",
     "keywords": ["atlassian","jira","api"],
     "type": "library",
