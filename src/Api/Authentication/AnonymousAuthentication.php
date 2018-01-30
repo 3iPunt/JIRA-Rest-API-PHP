@@ -4,6 +4,7 @@ namespace Bluetea\Api\Authentication;
 
 class AnonymousAuthentication implements AuthenticationInterface
 {
+
     /**
      * @return null
      */
@@ -26,5 +27,21 @@ class AnonymousAuthentication implements AuthenticationInterface
     public function getPassword()
     {
         return null;
+    }
+
+    /**
+     * @param $username
+     */
+    public function setUsername($username)
+    {
+
+    }
+
+    /**
+     * @param $password
+     */
+    public function setPassword($password)
+    {
+
     }
 } 

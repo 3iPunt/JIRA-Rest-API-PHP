@@ -15,18 +15,6 @@ class Basic implements AuthenticationInterface
     protected $password;
 
     /**
-     * Constructor
-     *
-     * @param $username
-     * @param $password
-     */
-    public function __construct($username, $password)
-    {
-        $this->username = $username;
-        $this->password = $password;
-    }
-
-    /**
      * @return string
      */
     public function getCredential()
@@ -48,5 +36,16 @@ class Basic implements AuthenticationInterface
     public function getPassword()
     {
         return $this->password;
+    }
+
+    public function setUsername($username)
+    {
+        $this->username = $username;
+    }
+
+    public function setPassword($password)
+    {
+        $this->password = $password;
+
     }
 } 

@@ -18,4 +18,8 @@ interface AuthenticationInterface
      * @return string|null
      */
     public function getPassword();
+
+
+    public function setUsername($username);
+    public function setPassword($password);
 } 
